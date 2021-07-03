@@ -10,6 +10,6 @@ dotenv.config();
 const server = new ApolloServer({ typeDefs, resolvers });
 
 server.listen().then(({ url }) => {
-  connectDB().then(() => log.info("Database connected successfully"));
+  connectDB();
   log.info(`🚀 server ready at ${url}`);
 });
