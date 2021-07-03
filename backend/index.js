@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import { ApolloServer } from "apollo-server";
 import { connectDB } from "./db/db.js";
-import typeDefs from "./typeDefs/TypeDefs.js";
+import typeDefs from "./types/RestaurantType.js";
 import resolvers from "./resolvers/Resolvers.js";
 import log from "./logger/logger.js";
 

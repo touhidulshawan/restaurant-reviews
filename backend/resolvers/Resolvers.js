@@ -1,4 +1,3 @@
-import { removeArgumentsFromDocument } from "apollo-utilities";
 import Restaurant from "../models/RestaurantModel.js";
 
 const resolvers = {
